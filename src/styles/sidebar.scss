@@ -1,0 +1,44 @@
+@import "/variables";
+.sidebar {
+  width: 410px;
+  height: 1000px;
+  padding: 7em 2em 0 2em;
+  background-color: white;
+  margin-left: 100px;
+  position: fixed;
+  border-left: 1px solid $border-color-grey;
+  box-shadow: $shadow 0px 0px 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.second{
+  font-size: 23px;
+  margin-top: -5%;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.sidebar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid $border-color-grey;
+  border-radius: 5px;
+  width: 80%;
+}
+.search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}

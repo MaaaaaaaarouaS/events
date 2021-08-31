@@ -1,0 +1,29 @@
+@import "/variables";
+.menu {
+  display: flex;
+  padding-right: 1.5em;
+  margin-top:8px;
+  .icon {
+    margin-right: 1.5em;
+    width: 23px;
+    height: 23px;
+    color: #000;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+.logout{
+  margin-left: 1.5em;
+  margin-right: -1.5em;
+  width: 23px;
+  height: 23px;
+  color: #000;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+  .profileIcon {
+    margin-top: -3px;
+  }
+}
