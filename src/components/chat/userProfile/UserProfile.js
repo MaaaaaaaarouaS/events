@@ -11,7 +11,7 @@ export default class UserProfile extends Component {
       <div className="main__userprofile">
         <div className="profile__card1 user__profile__image">
           <div className="profile__image">
-            <img src="https://i.pravatar.cc/150?img=60" />
+            <img alt="" src="https://i.pravatar.cc/150?img=60" />
           </div>
           <h4>Samantha</h4>
           <p>CLEMENTINE BAUCH</p>

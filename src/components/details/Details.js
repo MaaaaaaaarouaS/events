@@ -21,7 +21,7 @@ function Details() {
     <div>
        <main className="more__details">
          <div className="details__event">
-             <div className="details__cover"><img style={{height:"109vh",width:"67vh"}} src={event.eventimage} /></div>
+             <div className="details__cover"><img alt="" style={{height:"109vh",width:"67vh"}} src={event.eventimage} /></div>
              <div className="details__content">
                  <div className="details__content-body">
                      <div className="details__black-label">

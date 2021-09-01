@@ -4,10 +4,10 @@ function Sociallogin() {
                 <div className="social-login">
                     <h3>log in via</h3>
                     <div className="social-icons">             
-                        <a href="#" className="social-login__icon fab fa-instagram">
+                        <a  className="social-login__icon fab fa-instagram">
                         <Icon icon="akar-icons:facebook-fill" />
                         </a>
-                        <a href="#" className="social-login__icon fab fa-facebook">
+                        <a className="social-login__icon fab fa-facebook">
                         <Icon icon="zmdi:google-plus" />
                         </a>
                     </div>

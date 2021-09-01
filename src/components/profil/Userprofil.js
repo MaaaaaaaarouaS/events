@@ -18,7 +18,7 @@ function Userprofil() {
         <div className="body__profil">
 		<div className="wrapper__profil">
 				<div className="profil_user">
-				<img src={profil.image} className="thumbnail"/>
+				<img alt="" src={profil.image} className="thumbnail"/>
 				<h3 className="name__user">{profil.username}</h3>
 				<p className="title__user">{profil.name}</p>
 				<p className="description__user">{profil.UserInterests}</p>

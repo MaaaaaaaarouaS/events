@@ -22,22 +22,6 @@ function Cards() {
     },
   ];
 
-  const commentsTwo = [
-    {
-      user: "mapvault",
-      text: "Amazing content, keep it up!",
-      id: 4,
-    },
-  ];
-
-  const commentsThree = [
-    {
-      user: "dadatlacak",
-      text: "Love this!",
-      id: 5,
-    },
-  ];
-
   return (
     <div className="cards">
       <Title />

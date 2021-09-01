@@ -1,6 +1,5 @@
 import "../styles/profile.scss";
 import ProfileIcon from "./ProfileIcon";
-import users from "../data/users";
 import { Icon } from '@iconify/react';
 
 function Profile(props) {

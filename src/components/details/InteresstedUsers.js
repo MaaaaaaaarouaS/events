@@ -9,7 +9,7 @@ function InteresstedUsers() {
           users.user.map(user => (
            <li key={user.id} className="list-item">
             <div>
-            <img src={user.image} className="list-item-image"/>
+            <img alt="" src={user.image} className="list-item-image"/>
             </div>
            <div className="list-item-content">
            <Link to={`/profil/${user.id}`}><h4>{user.username}</h4></Link>

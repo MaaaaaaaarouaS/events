@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <div className="navigation">
       <div className="nav">
-        <img className="logo" src={logo}/>
+        <img alt="" className="logo" src={logo}/>
         <Menu />
       </div>
     </div>
